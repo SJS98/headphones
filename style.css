@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:arial;
+  
+}
+
+
+.poster {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.poster img{
+  width:100%;
+}
+
+.headings{
+  width: 400px;
+  position: absolute;
+  left: 100px;
+}
+
+#shopbtn{
+  height: 35px;
+  width: 150px;
+  border:none;
+  border-radius:17px;
+  transition-duration: .25s;
+}
+#shopbtn:hover{
+  opacity: .7;
+}
+
+.content {
+  /* text-align: center; */
+}
+.para1{
+  position: relative;
+  left: 15%;
+  right: 15%;
+  margin-top:30px ;
+  width: 70%;
+}
+.lorem{
+  text-indent: 30px ;
+}
+.ydiv1{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(247, 200, 61);
+  text-align: center;
+}
+.fcards{
+  position: relative;
+  left: 15%;
+  right: 15%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.para2{
+  margin-left: 250px;
+}
+
+.cards1{
+  
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.card{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(247, 200, 61);
+}
+.card img{
+  width: 100%;
+}
+
+.carddetails{
+  padding: 15px;
+}
+#cardbtn{
+  margin-left: 10px;
+  position: absolute;
+  top: 20px;
+  border:none;
+  height: 30px;
+  border-radius:15px ;
+  background-color: rgb(247, 200, 61);
+}
+
+#cardbtn:hover{
+  opacity: .7;
+}
+
+.carddetails p{
+  margin-top: -10px;
+  line-height: 17px;
+  font-size: 12px;
+}
+
+.cards2 img{
+  margin: 10px;
+  height: 120px;
+  
+}
+.cards2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.frcards,.srcards{
+  display: flex;
+  margin-left: 10px;
+  /* justify-content: space-evenly; */
+}
+
+.ydiv2{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(247, 200, 61);
+  text-align: center;
+}
